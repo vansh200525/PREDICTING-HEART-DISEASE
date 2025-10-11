@@ -1,6 +1,5 @@
 # PREDICTING-HEART-DISEASE
 
-
 #Overview
 
 This repository contains code, notebooks, and documentation for building and evaluating machine learning models to predict the presence of heart disease from clinical and demographic features. The goal is to provide a clear, reproducible pipeline from raw data to a trained model and evaluation results, plus a simple demo for inference.
