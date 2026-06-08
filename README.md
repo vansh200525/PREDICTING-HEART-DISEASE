@@ -1,4 +1,4 @@
-# PREDICTING-HEART-DISEASE
+# HEART-DISEASE-PREDICTION
 
 #Overview
 
@@ -31,6 +31,6 @@ UCI Heart Disease Dataset (Cleveland) — widely used for benchmarking. Contains
 WHO or other hospital datasets — if you have institutional data, make sure it is de-identified and you have permission to use it.
 
 #CONTACT:-
-vanshkrishali28@gmail.com
+vanshkrishali25@gmail.com
 
 
