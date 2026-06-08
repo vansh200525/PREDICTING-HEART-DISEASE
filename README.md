@@ -66,7 +66,5 @@ Among the evaluated models, Random Forest achieved the highest predictive perfor
 * Real-time prediction web application
 
 ## Author
-
 Vansh 
-Bachelor of Computer Applications (BCA)
-Machine Learning & Python Enthusiast
+
