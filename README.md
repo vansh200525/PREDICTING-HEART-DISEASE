@@ -1,36 +1,72 @@
-# HEART-DISEASE-PREDICTION
+# Heart Disease Prediction using Machine Learning
 
 ## Overview
 
-This repository contains code, notebooks, and documentation for building and evaluating machine learning models to predict the presence of heart disease from clinical and demographic features. The goal is to provide a clear, reproducible pipeline from raw data to a trained model and evaluation results, plus a simple demo for inference.
+This project predicts whether a patient is likely to have heart disease based on medical attributes such as age, cholesterol level, blood pressure, chest pain type, and other clinical measurements.
 
-## Features
-
-Data ingestion and cleaning pipeline
-
-Exploratory data analysis (notebook)
-
-Feature engineering and preprocessing (pipelines)
-
-Model training scripts for Logistic Regression, Random Forest, and XGBoost
-
-Hyperparameter tuning with cross-validation
-
-Model evaluation (accuracy, precision, recall, F1, ROC AUC, confusion matrix)
-
-Saved model artifacts and reproducible inference script
-
-Example web/demo wrapper (optional) using Streamlit
+The project compares multiple machine learning algorithms and evaluates their performance using various classification metrics.
 
 ## Dataset
 
-You can use any heart disease dataset. Popular choices:
+The dataset contains patient health records with several medical features and a target variable indicating the presence or absence of heart disease.
 
-UCI Heart Disease Dataset (Cleveland) — widely used for benchmarking. Contains clinical attributes such as age, sex, chest pain type, resting blood pressure, cholesterol, fasting blood sugar, ECG results, max heart rate, exercise-induced angina, ST depression, slope of ST, number of major vessels, thalassemia, and a target column indicating presence of heart disease.
+## Technologies Used
 
-WHO or other hospital datasets — if you have institutional data, make sure it is de-identified and you have permission to use it.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Graphviz
 
-## CONTACT:-
-vanshkrishali25@gmail.com
+## Machine Learning Models
 
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
 
+## Exploratory Data Analysis
+
+The project includes:
+
+* Data inspection
+* Missing value analysis
+* Correlation matrix
+* Target variable distribution
+* Age distribution analysis
+* Feature correlation heatmap
+
+## Model Evaluation Metrics
+
+* Accuracy Score
+* Confusion Matrix
+* Classification Report
+* ROC-AUC Score
+* Cross Validation Score
+
+## Project Structure
+
+```text
+PREDICTING-HEART-DISEASE
+├── dataset.csv
+├── Predicting Heart Disease .ipynb
+└── README.md
+```
+
+## Results
+
+Among the evaluated models, Random Forest achieved the highest predictive performance on the dataset.
+
+## Future Improvements
+
+* Hyperparameter tuning using GridSearchCV
+* XGBoost implementation
+* Deployment using Flask or Streamlit
+* Real-time prediction web application
+
+## Author
+
+Vansh 
+Bachelor of Computer Applications (BCA)
+Machine Learning & Python Enthusiast
