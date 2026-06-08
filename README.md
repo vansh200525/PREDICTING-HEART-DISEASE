@@ -1,10 +1,10 @@
 # HEART-DISEASE-PREDICTION
 
-#Overview
+## Overview
 
 This repository contains code, notebooks, and documentation for building and evaluating machine learning models to predict the presence of heart disease from clinical and demographic features. The goal is to provide a clear, reproducible pipeline from raw data to a trained model and evaluation results, plus a simple demo for inference.
 
-#Features
+## Features
 
 Data ingestion and cleaning pipeline
 
@@ -22,7 +22,7 @@ Saved model artifacts and reproducible inference script
 
 Example web/demo wrapper (optional) using Streamlit
 
-#Dataset
+## Dataset
 
 You can use any heart disease dataset. Popular choices:
 
@@ -30,7 +30,7 @@ UCI Heart Disease Dataset (Cleveland) — widely used for benchmarking. Contains
 
 WHO or other hospital datasets — if you have institutional data, make sure it is de-identified and you have permission to use it.
 
-#CONTACT:-
+## CONTACT:-
 vanshkrishali25@gmail.com
 
 
